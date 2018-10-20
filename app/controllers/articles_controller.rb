@@ -42,6 +42,7 @@ class ArticlesController < ApplicationController
     flash[:danger] = "Article was successfully deleted"
     redirect_to articles_path
   end
+ 
   
   private
    def set_article
